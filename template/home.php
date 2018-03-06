@@ -29,7 +29,7 @@ if (!isset($_SESSION['user_name'])) {
         <br />
         <fieldset>
             <input type="submit" value="Отправить" />
-            <input type="reset" value="Осистить" />
+            <input type="reset" value="Очистить" />
         </fieldset>
     </form>
     </div>
