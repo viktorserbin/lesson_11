@@ -37,6 +37,6 @@ EOD;
 }
 else {
     echo '<p>Home page content</p>';
-    echo "Приветсвую <strong>{$_SESSION['user_name']}</strong>";
+    echo "Приветствую <strong>{$_SESSION['user_name']}</strong>";
 }
 //var_dump($_SESSION);

@@ -8,7 +8,7 @@
 
 echo '<p>Some Contact</p>';
 if (isset($_SESSION['user_name'])) {
-    echo "Приветсвую <strong>{$_SESSION['user_name']}</strong>";
+    echo "Приветствую <strong>{$_SESSION['user_name']}</strong>";
 }
 else {
     header('Location: ?page=home');
